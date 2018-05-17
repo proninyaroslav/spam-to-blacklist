@@ -1,5 +1,6 @@
 # Spam to blacklist
-Adds IP from comment that marked as spam to standard WordPress blacklist.
+
+A WordPress plugin for adds IP from comment that marked as spam to standard WordPress blacklist. Comments already marked as spam are not added to the list.
 
 Installation
 ------------
