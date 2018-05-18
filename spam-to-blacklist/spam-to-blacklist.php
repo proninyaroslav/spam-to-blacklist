@@ -4,7 +4,7 @@
  *
  * @link              https://github.com/proninyaroslav/spam-to-blacklist
  * @since             1.0
- * @package           WordPress
+ * @package           SpamToBlacklist
  *
  * @wordpress-plugin
  * Plugin Name:       Spam to blacklist
@@ -34,17 +34,17 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-add_action('spam_comment', 'ban', 10, 2);
-add_action('unspam_comment', 'unban', 10, 2);
+add_action('spam_comment', 'SpamToBlacklist_ban', 10, 2);
+add_action('unspam_comment', 'SpamToBlacklist_unban', 10, 2);
 
-function ban($comment_id, $comment)
+function SpamToBlacklist_ban($comment_id, $comment)
 {
 	$blacklist = get_option('blacklist_keys', '');
 	$blacklist .= "\n" . $comment->comment_author_IP;
 	update_option('blacklist_keys', $blacklist);
 }
 
-function unban($comment_id, $comment)
+function SpamToBlacklist_unban($comment_id, $comment)
 {
 	$blacklist = get_option('blacklist_keys', '');
 	$blacklist = str_replace($comment->comment_author_IP, '', $blacklist);
