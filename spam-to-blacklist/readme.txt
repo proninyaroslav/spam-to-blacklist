@@ -1,6 +1,6 @@
 === Spam to blacklist ===
 Contributors: proninyaroslav
-Donate link: https://github.com/proninyaroslav/spam-to-blacklist
+Donate link: https://gitlab.com/proninyaroslav/spam-to-blacklist#donation
 Tags: comments, spam, blacklist, ban, ip
 Requires at least: 4.9
 Tested up to: 4.9.5

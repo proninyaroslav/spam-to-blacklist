@@ -2,13 +2,13 @@
 /**
  * Adds IP from comment that marked as spam to standard WordPress blacklist. Comments already marked as spam are not added to the list.
  *
- * @link              https://github.com/proninyaroslav/spam-to-blacklist
+ * @link              https://gitlab.com/proninyaroslav/spam-to-blacklist
  * @since             1.0
  * @package           SpamToBlacklist
  *
  * @wordpress-plugin
  * Plugin Name:       Spam to blacklist
- * Plugin URI:        https://github.com/proninyaroslav/spam-to-blacklist
+ * Plugin URI:        https://gitlab.com/proninyaroslav/spam-to-blacklist
  * Description:       Adds IP from comment that marked as spam to standard WordPress blacklist. Comments already marked as spam are not added to the list.
  * Version:           1.0
  * Author:            Yaroslav Pronin
