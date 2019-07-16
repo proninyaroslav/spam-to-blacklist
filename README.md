@@ -18,7 +18,9 @@ If you like this plugin you can support author with these methods. If you have p
  - **Yandex Money**: `410011738561939`
  - **Amazon.com eGift Cards**: just choose your amount and type e-mail `proninyaroslav@mail.ru`
 in the gift card details https://www.amazon.com/gp/product/B004LLIKVU/
-
+ - **Liberapay**: [![liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/proninyaroslav/donate)
+ - **Bitcoin**: `1Af9DgxtWvVp6bFiYQw2MeWtRzTXshRYpB`
+ 
 License
 -------
 
